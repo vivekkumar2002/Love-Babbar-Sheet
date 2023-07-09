@@ -1,0 +1,12 @@
+	vector<int> valueEqualToIndex(int arr[], int n) {
+	    int i;
+	    vector <int> s;
+	    for(i=0;i<=n;i++)
+	    {
+	        if(i+1==arr[i])
+	        {
+	            s.push_back(i+1);
+	        }
+	    }
+	    return s;
+	}
